@@ -1,4 +1,29 @@
 .container {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
+
+.top-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 200px;
+}
+
+.links a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.middle-div {
+    margin-top: 50px;
+}
+
+#middle-image {
+    width: 350px;
+}
+
