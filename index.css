@@ -21,9 +21,28 @@
 
 .middle-div {
     margin-top: 50px;
+    display: flex;
+}
+
+#left-div {
+    width: 400px;
+}
+
+#right-div {
+    margin-left: 30px;
 }
 
 #middle-image {
-    width: 350px;
+    width: 500px;
+}
+
+.bottom-div {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-image {
+    width: 100px;
 }
 
