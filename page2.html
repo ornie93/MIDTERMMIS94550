@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-div">
+            <div>
+                <img id="logo" src="images/logo.png" alt=""> 
+            </div>
+            <div class="links">
+                <a href="">Books</a>
+                <a href="">Courses</a>
+                <a href="">Others</a>
+                <a href="">Blog</a>
+                <button>Sign In</button>
+            </div>
+        </div>
+        <div class="middle-div">
+            <div>
+                <input type="text" id="name" placeholder="Name"><br><br>
+                <input type="number" id="age" placeholder="Age"><br><br>
+                <input type="number" id="monthly-salary" placeholder="Monthly salary"><br><br>
+                <button onclick="calculate()">Calculate</button>
+            </div>
+            <div id="result">
+                <p id="p1"></p>
+                <p id="p2"></p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
